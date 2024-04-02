@@ -3,11 +3,13 @@ package backtracking;
 //• Liệt kê tất cả các tập con có k phần tử của tập S
 //• Liệt kê các chỉnh hợp không lặp chập k của tập S
 
-import java.util.Scanner;
-
 // Given a set S = {1, 2, ..., n}.
 // list all subsets of size k from the set S.
 // list all permutations of size k without repetition from the set S
+
+import java.util.Scanner;
+
+
 public class Set {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

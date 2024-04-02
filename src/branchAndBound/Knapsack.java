@@ -1,3 +1,14 @@
+package branchAndBound;
+
+//Bài toán xếp balo: Có n đồ vật, mỗi vật có trọng lượng Pi và giá trị Vi (i = 1...n).
+//Có một chiếc balo có thể chứa trọng lượng tối đa là M.
+// Hãy xác định tổng giá trị lớn nhất của các vật có thể đưa vào balo.
+// Chỉ ra một cách cho các vật vào balo.
+
+//The knapsack problem: There are n items, each with a weight Pi and a value Vi (i = 1...n).
+// There is a knapsack that can hold a maximum weight of M.
+// Determine the maximum total value of the items that can be put into the knapsack.
+// Provide one way to place the items into the knapsack.
 import java.util.Scanner;
 
 public class Knapsack {
