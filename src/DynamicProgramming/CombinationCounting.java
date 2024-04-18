@@ -1,6 +1,8 @@
 package DynamicProgramming;
 
 import java.util.Scanner;
+//Bài toán đếm số tổ hợp.
+//The combination counting problem.
 
 public class CombinationCounting {
     public static void main(String[] args) {
@@ -11,8 +13,6 @@ public class CombinationCounting {
         int n = sc.nextInt();
         System.out.print("Tổng số tổ hợp bằng: ");
         System.out.print(choose(r,n));
-
-
     }
     public static int choose(int r, int n){
         int c[][] = new int[r+1][n+1];
